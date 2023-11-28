@@ -2,7 +2,7 @@
 
 This is a desktop application for managing students data,  
 in universities and colleges.  
-You can add, edit and delete students from the application. 
+You can add, edit and delete students from the application.   
 The app window and table are adjustable.  
 For the GUI I used PyQt6 and for the database I've used MySQL.  
 The primary key id is auto increment (database configuration).  
