@@ -70,6 +70,7 @@ class EditDialog(QDialog):
             print(f'Exception in EditDialog.update_student:  {e}')
             raise e
         finally:
+            cursor.close()
             conn.close()
 
         # show updated data in the table

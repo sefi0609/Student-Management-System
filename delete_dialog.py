@@ -48,6 +48,7 @@ class DeleteDialog(QDialog):
             print(f'Exception in DeleteDialog.delete_student: {e}')
             raise e
         finally:
+            cursor.close()
             conn.close()
 
         self.main_window.load_data()

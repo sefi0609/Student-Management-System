@@ -75,6 +75,7 @@ class MainWindow(QMainWindow):
             print(f'Exception in MainWindow.load_data: {e}')
             raise e
         finally:
+            cursor.close()
             conn.close()
 
         # the status bar needs to be hidden

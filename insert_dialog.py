@@ -53,6 +53,7 @@ class InsertDialog(QDialog):
             print(f'Exception in InsertDialog.add_student: {e}')
             raise e
         finally:
+            cursor.close()
             conn.close()
 
         # load the new data to the table
