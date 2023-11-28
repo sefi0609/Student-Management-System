@@ -32,8 +32,13 @@ class SearchDialog(QDialog):
         self.setLayout(layout)
 
     def search_student(self):
+
+        # clear the selected cell of the table
         self.main_window.table.clearSelection()
+        
         name = self.student_name.text()
         items = self.main_window.table.findItems(name, Qt.MatchFlag.MatchContains)
+
+        # select the matching cells
         for item in items:
             self.main_window.table.item(item.row(), item.column()).setSelected(True)
