@@ -1,12 +1,12 @@
 ## Student Management System
 
-This is a desktop application for managing students data,  
+This is a desktop application for managing students data  
 in universities and colleges.  
 You can add, edit and delete students from the application.   
 The app window and table are adjustable.  
 For the GUI I used PyQt6 and for the database I've used MySQL.  
 The primary key id is auto increment (database configuration).  
-The status bar appears only if you select a table cell,  
+The status bar appears only if you select a table cell    
 and then you can edit or delete the student data.  
 This is an OOP project.  
 
