@@ -23,7 +23,7 @@ This is an OOP project.
 
 ## Search Student
 
-![image](https://github.com/sefi0609/Student-Management-System/assets/81361291/375e4316-ac9e-4e9b-9fb9-8e4e8ece351b)
+![image](https://github.com/sefi0609/Student-Management-System/assets/81361291/886c7f74-e4f7-4b73-b9bc-d1b8e340debb)
 
 ## Status Bar
 
