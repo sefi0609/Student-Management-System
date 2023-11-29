@@ -53,5 +53,6 @@ class SearchDialog(QDialog):
             case 'Contain':
                 items = self.main_window.table.findItems(name, Qt.MatchFlag.MatchContains)
 
+        # select the founded cells
         for item in items:
             self.main_window.table.item(item.row(), item.column()).setSelected(True)
