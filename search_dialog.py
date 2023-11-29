@@ -40,7 +40,6 @@ class SearchDialog(QDialog):
         self.setLayout(layout)
 
     def search_student(self):
-
         # clear selected table cells
         self.main_window.table.clearSelection()
 

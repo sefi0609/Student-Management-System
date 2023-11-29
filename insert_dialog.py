@@ -41,7 +41,6 @@ class InsertDialog(QDialog):
         self.setLayout(layout)
 
     def add_student(self):
-
         # add the new student data to the database
         conn = connect_to_db()
         cursor = conn.cursor()

@@ -36,7 +36,6 @@ class DeleteDialog(QDialog):
         self.setLayout(layout)
 
     def delete_student(self):
-
         # delete student from the database
         conn = connect_to_db()
         cursor = conn.cursor()
